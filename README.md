@@ -1,3 +1,5 @@
+![Logo Docker Facebook](images/docker-facebook.png)
+
 # Guide d'utilisation - Docker
 
 Ce guide explique les étapes pour créer des images Docker, créer des tags et publier ces images sur un registre Docker.
