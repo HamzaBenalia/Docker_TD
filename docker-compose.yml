@@ -12,9 +12,9 @@ services:
       - backend
 
   bff:
-    image: bffapp
+    image: hamza3991/bffapp:latest
     ports:
-      - "8080:80"  # Correction du port du service BFF
+      - "8080:8080"  # Correction du port du service BFF
     environment:
       - DB_USERNAME=root
       - DB_PASSWORD=root
@@ -26,7 +26,7 @@ services:
   front:
     image: hamza3991/frontapp
     ports:
-      - "4200:80"  # Correction du port du service front
+      - "8083:80"  # Correction du port du service front
     environment:
       - BFF_URL=http://bff:80  # Mise à jour de l'URL du BFF
     networks:
