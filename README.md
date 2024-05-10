@@ -53,10 +53,19 @@ Ces étapes devraient vous aider à créer des images Docker, à leur attribuer 
 ---
 
 
+## Utilisation d'un fichier .env dans Docker Compose
+
+Dans Docker Compose, vous pouvez utiliser un fichier `.env` pour stocker des variables d'environnement sensibles et les injecter dans vos services sans les exposer publiquement dans le fichier `docker-compose.yml`. Voici un exemple de fichier `.env` :
+
+DB_USER=my_user
+DB_PASSWORD=my_password
+
 ### URLs des images Docker
 
 - BFF : [hamza3991/bffapp](https://hub.docker.com/repository/docker/hamza3991/bffapp/general)
 - Front : [hamza3991/frontapp](https://hub.docker.com/repository/docker/hamza3991/frontapp/general)
+
+
 
 
 🐳 Bon développement en Docker !
