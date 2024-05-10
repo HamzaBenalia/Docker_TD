@@ -2,7 +2,10 @@
 FROM mdsol/java21-jdk
 
 # Création du répertoire /app dans le conteneur
-RUN mkdir /app
+WORKDIR /app
+
+#comment 
+
 
 # Copie des fichiers du répertoire bff/target dans le conteneur
 COPY ./target/* /app/
