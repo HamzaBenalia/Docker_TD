@@ -65,7 +65,9 @@ DB_PASSWORD=my_password
 - BFF : [hamza3991/bffapp](https://hub.docker.com/repository/docker/hamza3991/bffapp/general)
 - Front : [hamza3991/frontapp](https://hub.docker.com/repository/docker/hamza3991/frontapp/general)
 
+### Rendu Finale 
 
+![Logo_Rendu](images/Rendu.png)
 
 
 🐳 Bon développement en Docker !
